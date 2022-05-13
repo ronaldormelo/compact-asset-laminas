@@ -4,13 +4,13 @@ Version 1.0.0
 
 Introduction
 ------------
-CompactAsset is a Laminas module that joins, minimizes, compresses and caches CSS and JS, 
+CompactAsset is a module for Laminas Framework (ZF3) that joins, minimizes, compresses and caches CSS and JS,
 improving the performance of your web application
 
 Installation
 ------------
 
-- Clone this module into your `module/` directory and rename to `CompactAsset` 
+- Clone this module into your `module/` directory and rename to `CompactAsset`
 - Enable `CompactAsset` in `config/modules.config.php`
 - Add the following line in `composer.json` for autoload
 ```php
@@ -33,7 +33,7 @@ Use
 <script src="/assets/js/templates/theme1/js/jquery.counterup.min.js"></script>
 <script src="/assets/js/module1/index.js"></script>
 ``` 
- Use:
+Use:
 ```php
 <script src="/assets/compact-js/plugins|notifications|notify-metro.min.js,templates|theme1|js|jquery.waypoints.js,templates|theme1|js|jquery.counterup.min.js,module1|index.js"></script>
 ```
